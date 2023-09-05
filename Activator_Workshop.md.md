@@ -83,9 +83,8 @@ Data Activator drives actions through a 3-step process: 
 
 **Module 1: Create a PowerBI Workspace:**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/8b04a860-392a-45ba-a6d2-46b96352b350)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.004.png)
 
 **Fill out the Create Workspace as follows:**
 
@@ -95,9 +94,8 @@ Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b8
 - License Mode: Trial (Provided Fabric Trial is enabled)
 - Leave all the other settings to default.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/bd52465a-7b84-4b98-8b37-cf1c55ed38da)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.005.png)
 
 1) Select Apply.
 1) A new workspace will be created and opened.
@@ -108,46 +106,40 @@ Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b8
 
 1. On the context switcher, select the Data Activator Experience, you would be provided with an option to create **Reflex** item and a **Reflex Sample** item. Choose the Reflex Sample.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/bd1c227d-c6f1-4054-844e-85c055c6bec7)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.006.png)
 
 1. By default, you would be able to see the package delivery sample steaming data loaded and getting updated frequently and you can view it on the data tab.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/14b6ff35-c3bd-497c-8c97-e942e2951228)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.007.png)
 
 1. Select the design mode and create a new property. Choose the "Package in Transit" property and select the packages of your choice on the top right corner of the visual chart and value as Humidity, as you choose these values, you can examine the refresh happening on the data visual and the value on the chat starts showing the values for City.
 1. Select the next step, choose "Detect" and use the filter: Operation as "is equal" and Value as 50
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/59520450-dfee-43f0-ae80-9bd7b2006be2)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.008.png)
 
 1. As a next step, choose "Act" and choose "Send teams message".
 1. Add the necessary "to address", headline and optional message to the teams' message and click on Start.
 1. This enabled your Reflex property.
 1. As you watch the data hitting the value > 50, for the selected packages, you would see the teams' message on the Data Activator teams bot.
 
-![A screenshot of a web page
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/4683763c-2384-4f4a-a22e-9f75f0e7cb38)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.009.png)
 
 **Module 3: Create Reflex item from Power BI Report Trigger Action**
 
 1. Choose any pre-created Power BI report which has visuals with date/time column in them. Select an area chart with datetime key(DeliveryDateKey) field as your X-axis and Sum of Profits as your Y-axis
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/2c0a2cb7-d2fd-48f7-9de6-7fdb20967be7)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.010.png)
 
 1. On the Visual properties (...) ellipses, you will find an option "Trigger Action".
 1. On clicking "Trigger Action" option, you would see a pop-up pane on the right-hand side, you can configure the basic settings for the Reflex item that is getting generated.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/6e88a29f-7f40-43f2-a818-eda4ecdb93cf)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.011.png)
 
 1. Choose the Reflex properties based on the measures available in the table and set the threshold points for the trigger as SumOfProfits   < $53million and create the new Reflex item by providing a name “**NewReflexProfit**s” under a chosen workspace.
 1. Once the Reflex item is created, you would be able to go to the Reflex item with the pop-up link or on the chosen workspace and continue to configure actions(set up a email message) on the reflex trigger that is set.
@@ -155,9 +147,8 @@ Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b8
 
 Example email message as below:
 
-![A screenshot of a computer error
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/968f8288-8098-44cf-a317-c9ebbe48db95)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.012.png) 
 
 
 
