@@ -2,9 +2,8 @@
 
 **Data Activator**
 
-![A screenshot of a computer program
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/e942326c-ce98-4d85-bf81-2c1b6837cf28)
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.001.png)
 
 
 
@@ -14,7 +13,7 @@ Contents
 1) Introduction - Data Activator
 1) Prerequisites
 1) Module 1: Create a Fabric workspace
-1) ` `Module 2: Build your Data Activator alerts from Power Bi reports
+1) Module 2: Build your Data Activator alerts from Power Bi reports
 
 
 
@@ -24,7 +23,8 @@ What is Microsoft Fabric?
 
 Microsoft Fabric is an all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence. It offers a comprehensive range of services, including data lake, data engineering, and data integration, all in one place. ![A screenshot of a blue screen
 
-Description automatically generated](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.002.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/719ad7ad-a713-4a82-bbbe-a9213d5d49a8)
+
 
 Fabric brings together experiences such as Data Engineering, Data Factory, Data Science, Data Warehouse, Real-Time Analytics, and Power BI onto a shared SaaS foundation. This integration provides the following advantages:
 
@@ -67,7 +67,8 @@ Data Activator drives actions through a 3-step process: 
 1) **Detect actionable conditions:** Data Activator gives you a single place to define actionable patterns in your data. These can range from simple thresholds (such as value being exceeded) to more complex patterns over time (such a value trending down).  
 1) **Trigger actions:** When Data Activator detects an actionable pattern, it triggers an action. That action can be an email or a Teams alert to the relevant person in your organization or triggering an automatic process, via a Power Automate flow or an action in one of your organization’s line-of-business apps. 
 
-![Driving actions from your data with Data Activator | Microsoft Fabric ...](Aspose.Words.4812d379-4c46-4ec3-a347-2873b82fd539.003.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/181809e3-8181-469d-a6be-e970c411ab36)
+
 
 
 
