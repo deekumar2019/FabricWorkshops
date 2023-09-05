@@ -400,7 +400,7 @@ Destination: KQL Table:
 
 - Select Save. A new cloud  data connection between Fabric and Event Hubs is created.
 
-- - Once both the destination options have configured, you have now set up your Fabric to get real time data from Event hub.
+- - Once both the destination options have configured, you have now set up your Fabric to get real time data from Event hub into Onelake and KQL table.
 
 ![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/e28f9c04-acec-49d1-b682-99f9766c8c37)
 
