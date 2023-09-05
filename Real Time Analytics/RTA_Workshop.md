@@ -2,7 +2,8 @@
 
 ` `**Real-time Analytics** 
 
-![](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.001.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/0236a594-e471-4086-92bf-3f74b1d1b4c0)
+
 
 
 
@@ -24,7 +25,8 @@ What is Microsoft Fabric?
 
 Microsoft Fabric is an all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence. It offers a comprehensive range of services, including data lake, data engineering, and data integration, all in one place. ![A screenshot of a blue screen
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.002.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/13b7ab9e-b706-437a-8c21-f2a08b97a82f)
+
 
 Fabric brings together experiences such as Data Engineering, Data Factory, Data Science, Data Warehouse, Real-Time Analytics, and Power BI onto a shared SaaS foundation. This integration provides the following advantages:
 
@@ -64,7 +66,8 @@ The main items available in Real-Time Analytics include:
 
 **Real-time Analytics integration with other experiences:**
 
-![](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.003.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/1d8bd59f-aab5-4381-af3e-fcacfb42606e)
+
 
 
 
@@ -93,9 +96,8 @@ Module 3: Ingest data from Event hub into Lakehouse and KQL table using Eventstr
 
 **Module 1: Create a Fabric Workspace:**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/2982064f-17ce-463a-b984-7e17344291da)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.004.png)
 
 **Fill out the Create Workspace as follows:**
 
@@ -105,9 +107,8 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 - License Mode: Trial (Provided Fabric Trial is enabled)
 - Leave all the other settings to default.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/53df2751-8a61-459a-9cfd-f27284f08e1c)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.005.png)
 
 - Select Apply.
 - A new workspace will be created and opened.
@@ -119,31 +120,30 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 - **Create a KQL Database** 
   - Click on New and you will see a drop down with multiple options. Select **KQL Database (Preview)**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/3e71282a-2e50-42e1-8b09-71a0abc6e3da)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.006.png)
 
 - On the New KQL Database dialog, enter a unique name: StockPrices
-- Enable availability of data in Onelake by clicking on the pencil (Highlighted below) ![A screenshot of a computer
+- Enable availability of data in Onelake by clicking on the pencil (Highlighted below)
+-
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/b0869e10-750b-4bf0-ac06-d63f9a3dd6f6)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.007.png)
 - ` `**Create an Event stream:** The event streams feature in Microsoft Fabric gives you a centralized place in the Fabric platform to capture, transform, and route real-time events to various destinations with no-code experience. 
 - Return to the Real-Time Analytics home page. The **Home** icon directs you to the home page of the experience you're currently using.
 
-![](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.008.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/731fafd6-6c8e-40c6-9168-b6041cec7152)
+
 
 - **Select** *Event Stream Preview*
 
-![A screenshot of a web page
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/ef92d877-1ef0-4b0d-9338-d8012b64dbbc)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.009.png)
 
 - Enter EventStreamStockPrices as the eventstream name and select **Create** 
 - When provisioning is complete, the Eventstream landing page is shown.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/88457117-66c9-42a6-b51c-d09e0cb71cce)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.010.png)
 
 - **Stream data from Eventstream to your KQL database**
 - In the Eventstream authoring area, select **New source** > **Sample data**.
@@ -151,9 +151,8 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 - Select **Add**.
 - In the Eventstream authoring area, select **New destination** > **KQL Database**.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/eff76d70-e915-4a29-846b-1edda1e0c66c)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.011.png)
 
 - In the **KQL Database** pane, fill out the fields as follows:
 
@@ -162,9 +161,9 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 |**Destination name**|*StockPricesdatabase*|
 |**Workspace**|The workspace in which you [created a database](https://learn.microsoft.com/en-us/fabric/real-time-analytics/tutorial-1-resources#create-a-kql-database).|
 |**KQL Database**|<p>*StockPrices*</p><p></p>|
-![A screenshot of a computer
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.012.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/35b4c2af-7d00-4922-a695-e5df225f8f6e)
+
 
 - Select **Add and configure.**
 
@@ -174,15 +173,13 @@ A data ingestion pane opens with the **Destination** tab selected.
 - Select **New table**, and enter *StockPrices* as the table name.
 - Select **Next: Source** to open the **Source tab**.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/a82b1703-5cde-4b63-b045-8d9a059d3478)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.013.png)
 
 - Review the default values. The data connection name is made from the database name and the eventstream name.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/f47ec969-874d-46b0-86b0-f1c4d5bbc466)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.014.png)
 
 - Select **Next: Schema** to open the **Schema** tab.
 
@@ -191,9 +188,8 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 - The incoming data source is uncompressed, so keep the **Compression type** as *uncompressed*.
 - From the **Data format** dropdown, select **JSON**.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/8d1e51ca-5624-4706-9223-7a442464eeb1)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.015.png)
 
 - Select **Next:Summary** :In the **Continuous ingestion from Eventstream established** window, all steps are marked with green check marks when the data connection is successfully created. **The data from Eventstream begins streaming automatically into your table.**
 
@@ -206,64 +202,57 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
   - To open your workspace, enter its **RTA\_Workshop** in the search textbox located at the top and select it from the search results.
   - From the experience switcher located at the bottom left, select **Data Engineering**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/e8148617-cce4-48c5-97bc-ae01c8b15088)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.016.png)
 
 - In the **Data Engineering** tab, select **Lakehouse** to create a lakehouse.
 - In the **New lakehouse** dialog box, enter **RTA\_Lakehouse** in the **Name** field.
 - Select **Create** to create and open the new lakehouse.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/d1ab7acb-9509-4c5f-b644-05151b145b3e)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.017.png)
 
 - **Upload a file to Lakehouse:**
   - Download the File Stocktickers.txt to your local machine.
   - Once you have opened the Lakehouse, right click on Files and you’ll see several options, pick the **Upload Files** option: ![A screenshot of a computer
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.018.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/66e455be-c677-4d75-90c8-0e7cc35b4091)
+
 
 - Upload the File from your local machine.
 - Copy the Url of the loaded file: 
 - Click on the 3 dots … next to Stockprices.txt
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/a3ff11a4-ced7-49c2-a761-d5a0a69c8c32)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.019.png)
 
 - Copy the One Lake URL
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/4f73f8c7-62cf-4d4b-bb6c-2cc7f439fa58)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.020.png)
 
 - Go to KQL database: StockPrices
   1. Right Click on Database Name: StockPrices
   1. You should see this will show option to Get Data – Click on **OneLake**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/59cb354d-5f9b-4dc8-90a4-81e17fc6bf05)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.021.png)
 
 - A new Window pops up, click on new table and call it **StockTicker**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/d4226b78-91b5-4799-bebd-5e656c5560bb)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.022.png)
 
 - Click on **Next Source**
 - Copy the **Onelake URI in the box highlighted:**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/b59f9a8c-1190-4222-9bb2-7f4c42f329d3)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.023.png)
 
 - Click Next Schema. Choose the Data Format=**PSV**
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/dad44e8a-8078-4c2d-a676-aa8122db2d1b)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.024.png)
 
 - Click **Next: Summary** and the data will get loaded into the Stockticker table
 
@@ -273,21 +262,20 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 - Go to your KQL database: **Stockprices**
 - To Query a table, right click on the table, you’ll see a lot of options to query your table:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/acc4df90-4efb-4ad9-bd1a-f4def297ad64)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.025.png)
 
 - Click on the first option: **Show any 100 records.**
 - A new window will pop-up with the Query and the results displayed under the Query:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/5c2330b4-37a9-49aa-ab73-57b23cf45761)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.026.png)
 
 - Similarly, you can try other sample queries from the options showing up to Query table in step b) above
-- Once you are satisfied with the queries, you can save your queries by clicking on: **Save as KQL queryset:** ![A screenshot of a computer
+- Once you are satisfied with the queries, you can save your queries by clicking on: **Save as KQL queryset:**
+-
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/1479fac2-72a5-40f4-8ae6-a339f54bbc6f)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.027.png)
 
 **Build a Power BI report** 
 
@@ -301,19 +289,19 @@ StockPrices
 
 - Click on Build Power BI report: You will land into a Power BI application with the Query showing up on the right side:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.028.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/0d7b0ce0-da83-4eb6-bfed-163653c6ee16)
 
 - Click on the Data Tab and move the symbol to x-axis and the Count variable to y-axis as below:
 
-![](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.029.png)
+
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/981371bd-8c76-4c72-b65e-27bd9830d7e8)
+
+
 
 - Click on File and save the** report giving it a name**: PowerBI-RTA** and the workspace name: **RTA\_Workshop**:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/1176ea94-df16-4be1-bff1-88af628b474e)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.030.png)
 
 
 
@@ -330,9 +318,8 @@ Please follow the link below to deploy an application which will deploy both the
 
 `              `In the Azure portal, browse to the event hubs instance you plan to connect.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/1a55c96f-0c5d-4d35-982d-c2c50d3a4fb3)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.031.png)
 
 - Create a new event stream in Fabric real time Analytics experience: New\_Toll\_Es
 
@@ -342,9 +329,8 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 
 - Create New Event hub source connection:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/bd2f3544-eeb2-4ab9-b438-47f521348701)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.033.png)
 
 - If you do not have existing connection to Evenhub create a new one, capturing the following details from Event hub portal:
 - Eventhub Name Space: (Event hub Name Space)
@@ -356,9 +342,8 @@ Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06df
 
 - After you have created the new connection, enter the values for your cloud connection:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/3a93bdea-efb7-4713-9324-209a59e2f75e)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.035.png)
 
 - Enter your consumer group from Eventhub where you will be reading the data from.
 - Select a Data format for your event hub data: This can be Json, Avro or CSV data formats
@@ -370,15 +355,14 @@ Destination: Lakehouse:
 
 - Click on + on the right side of Eventream box to enter your destination:
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/7a4fdcf0-b3ce-478b-9842-4cb5fc0769c2)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.036.png)
 
 - If you chose the lakehouse, please enter all the Lakehouse details in the popped up window:
 
-![A screenshot of a computer
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.037.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/d6c3eb25-f366-4a20-873a-3dc3950eef8c)
+
 
 - Once you save the settings, the data should be flowing into your Lakehouse
 
@@ -386,38 +370,39 @@ Destination: KQL Table:
 
 - If you would like the data to be steaming into KQL database, you can pick KQL database as the destination by entering all the details in the pop-up window.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/3276bd5e-453c-4faf-89ab-9dfc242a817b)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.038.png)
 
-- Once both the destination options have configured, you have now set up your Fabric to get real time data from Event hub.
+
+
 
 
 
 
 - Log into Fabric “Real-Time Analytics” experience and log into your KQL database: StockPrice
 
-![A close-up of a white background
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/c0c7dc85-dbc7-4c79-9928-c13eb27eb4b1)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.039.png) 
 
 - Click on Get Data and then Pick Event hubs from the drop-down menu.
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/d92d0d3a-3f3a-410f-a7c3-65c52386e413)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.040.png)
 
-- A new window pops up: ![A screenshot of a computer
+- A new window pops up:
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.041.png)
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/6e96465b-c588-4d94-8dab-c2e8e56c89f0)
+
 - Select Next: Source and enter all the details we captured in step 2)
 
-![A screenshot of a computer
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/f01052c6-b1e4-435d-a037-25f4df6bfccb)
 
-Description automatically generated](Aspose.Words.434d5218-f08f-4a9c-8c1b-1e06dff426f8.042.png)
 
 - Select Save. A new cloud  data connection between Fabric and Event Hubs is created.
 
+- - Once both the destination options have configured, you have now set up your Fabric to get real time data from Event hub.
+
+![image](https://github.com/deekumar2019/FabricWorkshops/assets/48809317/e28f9c04-acec-49d1-b682-99f9766c8c37)
 
 
 
