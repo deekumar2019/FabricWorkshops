@@ -1,0 +1,43 @@
+//***********************************************************************************************************
+// Here are two articles to help you get started with KQL:
+// KQL reference guide - https://aka.ms/KQLguide
+// SQL - KQL conversions - https://aka.ms/sqlcheatsheet
+//***********************************************************************************************************
+
+// Use "take" to view a sample number of records in the table and check the data.
+StockPrices
+| take 100
+
+// See how many records are in the table.
+StockPrices
+| count
+
+// This query returns the number of ingestions per hour in the given table.
+StockPrices
+| summarize IngestionCount = count() by bin(ingestion_time(), 1h)
+
+
+// Use 'take' to view a sample number of records in the table and check the data.
+StockPrices
+| take 100
+
+StockPrices
+| getschema 
+
+//Check when last record was ingested//
+StockPrices
+| summarize ['time']=max(ingestion_time())
+
+Stockticker
+| take 10 
+
+StockPrices  
+| join kind=inner Stockticker on Symbol
+
+
+StockPrices
+| project symbol,sector,securityType,bidPrice,askPrice
+| join (Stockticker
+        | project symbol=Symbol, ['Security Name'],['Market Category'])
+    on symbol
+| project symbol,sector,securityType,bidPrice,askPrice,['Security Name'],['Market Category']
