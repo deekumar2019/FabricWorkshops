@@ -1,1 +1,1 @@
-Please visit [fabriclakehouseinaday](https://github.com/iamjenetzler/fabriclakehouseinaday) for this portion of the VBD authored by Jen Beiser.
+Please visit [fabriclakehouseinaday](https://github.com/iamjenetzler/fabriclakehouseinaday) for this portion of the VBD authored by Jen Beiser (jen.beiser@microsoft.com).
