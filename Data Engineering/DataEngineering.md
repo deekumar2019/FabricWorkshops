@@ -176,7 +176,8 @@ Complete these tasks before you begin this tutorial:
 - Navigate to the Lakehouse created from your workspace and click "Open notebook"-> "New notebook"
     
   <img width="716" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/f0bad0f8-eaff-4930-9b3a-8390c9098d28">
-
+ 
+  
 - In the First cell add below content  and execute to make REST calls to the bing search , Use the bing search key copied from Azure portal
 
                 import json
@@ -215,7 +216,10 @@ Complete these tasks before you begin this tutorial:
 
   <img width="367" alt="image" src="https://github.com/mahes-a/Fabric-Ingestion/assets/120069348/fc3d6049-b775-4bac-8e1c-39ee53246d8c">
 
+-  The  notebook "Ingesting Data using Notebooks.ipynb" is also available in the repo and can be imported from the Data Engineering persona
 
+
+<img width="773" alt="image" src="https://github.com/deekumar2019/FabricWorkshops/assets/120069348/fd192185-aa9d-4aba-9e49-40a445b29eb8">
 
 ## Approach 6: Using OneLake File Explorer to Sync files
 
