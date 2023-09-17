@@ -47,6 +47,11 @@ If you perform this step, there will be additional 2-3 minutes when your spark s
 2. Provide Azure OpenAI Endpoint, Key in the third cell
 3. Run the cells from beginning to end.
 
+## sk-msfabric-003-NLP_to_SQL
+1. MS Fabric -> Data Science experience -> Filter -> Notebook -> Select sk-msfabric-003-NLP_to_SQL
+2. Provide Azure OpenAI Endpoint, Key in the third cell
+3. Run the cells from beginning to end.
+
 # Reference
 1. Github Semantic Kernel [repo](https://github.com/microsoft/semantic-kernel)
 
