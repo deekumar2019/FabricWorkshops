@@ -1,4 +1,4 @@
-# Many Models Forecasting Solution using the **Prophet** package and **Microsoft Fabric**
+# **Many Models** Forecasting Solution using the **Prophet** package and **Microsoft Fabric**
 
 ### Convert the csv files to tables
 1. Load ***dates.csv*** file to a table
