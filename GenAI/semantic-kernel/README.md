@@ -1,5 +1,7 @@
-# Excitement to Execution!
-Achieve more with **Microsoft Fabric, GenAI & Semantic Kernel!**
+# Achieve more with **Microsoft Fabric, GenAI & Semantic Kernel!**
+<img src="https://dataplatformblogcdn.azureedge.net/wp-content/uploads/2023/08/Screenshot-2023-08-13-at-20.53.03.png" width=50% height=50%>
+
+
 
 # Semantic Kernel
 [Semantic Kernel](https://aka.ms/semantic-kernel) is a lightweight open-source SDK that allows you to orchestrate AI plugins. Semantic Kernel provides a set of connectors to infuse memories and models, simulating a "brain" for your app, and AI plugins for real-world interaction, serving as the "body."
